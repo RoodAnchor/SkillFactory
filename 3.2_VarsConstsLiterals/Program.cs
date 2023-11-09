@@ -4,12 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _3._2_VarsConstsLiterals
+namespace SkillFactory.VarsConstsLiterals
 {
     internal class Program
     {
         static void Main(string[] args)
         {
+            String MyName; 
+            MyName = "Andrey";
+            Console.WriteLine(MyName);
         }
     }
 }
