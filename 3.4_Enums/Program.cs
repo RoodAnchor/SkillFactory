@@ -10,6 +10,11 @@ namespace SkillFactory.Enums
     {
         static void Main(string[] args)
         {
+            WeekDaysEnum day;
+            day = WeekDaysEnum.Friday;
+
+            Console.WriteLine(day);
+            Console.ReadKey();
         }
     }
 }
