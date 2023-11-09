@@ -11,7 +11,7 @@ namespace SkillFactory.VarsConstsLiterals
     {
         static void Main(string[] args)
         {
-            PrintHexDecDouble();
+            PrintWithCorrectTypes();
         }
 
         private static void PrintStuffWithEscChars()
@@ -48,6 +48,21 @@ namespace SkillFactory.VarsConstsLiterals
             Console.WriteLine(0x0A);
             Console.WriteLine(0b11);
             Console.WriteLine(5.5);
+
+            Console.ReadKey();
+        }
+
+        private static void PrintWithCorrectTypes()
+        {
+            const String name = "Андрей";
+            Byte age = 36;
+            Boolean havePet = true;
+            Single shoeSize = 41.5F;
+
+            Console.WriteLine($"Меня зовут {name}");
+            Console.WriteLine($"Мне {age} лет");
+            Console.WriteLine($"Есть ли у меня домашнее животное? {havePet}");
+            Console.WriteLine($"У меня {shoeSize} размер обуви");
 
             Console.ReadKey();
         }
