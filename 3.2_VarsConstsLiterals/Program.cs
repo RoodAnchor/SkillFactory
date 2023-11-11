@@ -5,7 +5,7 @@ using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SkillFactory.VarsConstsLiterals
+namespace SkillFactory.Module3.VarsConstsLiterals
 {
     internal class Program
     {

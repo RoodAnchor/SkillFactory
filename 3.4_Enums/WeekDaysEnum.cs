@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SkillFactory.Enums
+namespace SkillFactory.Module3.Enums
 {
-    enum WeekDaysEnum : Byte
+    public enum WeekDaysEnum : Byte
     {
         Monday = 1,
         Tuesday,

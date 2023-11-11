@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SkillFactory.MainOperations
+namespace SkillFactory.Module3.MainOperations
 {
     internal class Program
     {

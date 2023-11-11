@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SkillFactory.Enums
+namespace SkillFactory.Module3.Enums
 {
     enum SemaphoreEnum : Int16
     {
