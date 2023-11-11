@@ -24,7 +24,7 @@ namespace SkillFactory.Module3.TypeConversion
 
             Console.WriteLine($"Вас зовут {name} и ваш возраст {age} лет");
 
-            Console.WriteLine("Укажите дату вашего дня рождения в формате дд.мм.ггг: ");
+            Console.WriteLine("Укажите дату вашего дня рождения в формате дд.мм.гггг: ");
             DateTime birthday = DateTime.Parse(Console.ReadLine());
 
             Console.WriteLine($"Ваш день рождения {birthday:dd.MM.yyyy}");
