@@ -15,6 +15,15 @@ namespace SkillFactory.Module4.Conditions
 
             var color = Console.ReadLine();
 
+            //PrintColorsIfElse(color);
+            PrintColorsSwitch(color);
+
+            Console.WriteLine($"Ваш любимый цвет {color}");
+            Console.ReadLine();
+        }
+
+        internal static void PrintColorsIfElse(String color)
+        {
             if (color == "red")
             {
                 Console.BackgroundColor = ConsoleColor.Red;
@@ -25,14 +34,39 @@ namespace SkillFactory.Module4.Conditions
                 Console.BackgroundColor = ConsoleColor.Green;
                 Console.ForegroundColor = ConsoleColor.Black;
             }
-            else
+            else if (color == "cyan")
             {
                 Console.BackgroundColor = ConsoleColor.Cyan;
                 Console.ForegroundColor = ConsoleColor.Black;
             }
+            else
+            {
+                Console.BackgroundColor = ConsoleColor.Yellow;
+                Console.ForegroundColor = ConsoleColor.Red;
+            }
+        }
 
-            Console.WriteLine($"Ваш любимый цвет {color}");
-            Console.ReadLine();
+        internal static void PrintColorsSwitch(String color)
+        {
+            switch (color)
+            {
+                case "red":
+                    Console.BackgroundColor = ConsoleColor.Red;
+                    Console.ForegroundColor = ConsoleColor.Black;
+                    break;
+                case "green":
+                    Console.BackgroundColor = ConsoleColor.Green;
+                    Console.ForegroundColor = ConsoleColor.Black;
+                    break;
+                case "cyan":
+                    Console.BackgroundColor = ConsoleColor.Cyan;
+                    Console.ForegroundColor = ConsoleColor.Black;
+                    break;
+                default:
+                    Console.BackgroundColor = ConsoleColor.Yellow;
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    break;
+            }
         }
     }
 }
