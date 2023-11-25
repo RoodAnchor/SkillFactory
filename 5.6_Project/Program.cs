@@ -26,55 +26,55 @@ namespace SkillFactory.Module6.Project
         Boolean HasFavColors, Int32 FavColorsCount, String[] FavColors)
         GetUserProfile()
         {
-            String FirstName;
-            String SecondName;
-            Int32 Age; 
-            Boolean HasPet;
-            Int32 PetCount = 0;
-            String[] PetNames = null;
-            Boolean HasFavColors;
-            Int32 FavColorsCount = 0;
-            String[] FavColors = null;
+            String firstName;
+            String secondName;
+            Int32 age; 
+            Boolean hasPet;
+            Int32 petCount = 0;
+            String[] petNames = null;
+            Boolean hasFavColors;
+            Int32 favColorsCount = 0;
+            String[] favColors = null;
 
             List<String> expectedBinVals = new List<String>() { Resources.Yes, Resources.No };
 
             Console.WriteLine(Resources.FirstNamePromptMsg);
-            FirstName = Console.ReadLine();
+            firstName = Console.ReadLine();
 
             Console.WriteLine(Resources.SecondNamePromptMsg);
-            SecondName = Console.ReadLine();
+            secondName = Console.ReadLine();
 
             Console.WriteLine(Resources.AgePromptMsg);
-            Age = ValidateNumericInput(Console.ReadLine(), Resources.AgePromptMsg);
+            age = ValidateNumericInput(Console.ReadLine(), Resources.AgePromptMsg);
 
             
             String petsPromptMessage = String.Format(Resources.PetsPromptMsg, String.Join("/", expectedBinVals));
             Console.WriteLine(petsPromptMessage);
-            HasPet = ValidateStringInput(Console.ReadLine(), expectedBinVals, petsPromptMessage)  == Resources.Yes ? true : false;
+            hasPet = ValidateStringInput(Console.ReadLine(), expectedBinVals, petsPromptMessage)  == Resources.Yes ? true : false;
 
-            if (HasPet)
+            if (hasPet)
             {
                 Console.WriteLine(Resources.PetsCountPromptMsg);
-                PetCount = ValidateNumericInput(Console.ReadLine(), Resources.PetsCountPromptMsg);
-                PetNames = GetStringArr(PetCount, Resources.PetNamePromptMsg);
+                petCount = ValidateNumericInput(Console.ReadLine(), Resources.PetsCountPromptMsg);
+                petNames = GetStringArr(petCount, Resources.PetNamePromptMsg);
             }
 
             String colorsPromptMessage = String.Format(Resources.FavColorsPromptMsg, String.Join("/", expectedBinVals));
             Console.WriteLine(colorsPromptMessage);
-            HasFavColors = ValidateStringInput(Console.ReadLine(), expectedBinVals, colorsPromptMessage) == Resources.Yes ? true : false;
+            hasFavColors = ValidateStringInput(Console.ReadLine(), expectedBinVals, colorsPromptMessage) == Resources.Yes ? true : false;
 
-            if (HasFavColors)
+            if (hasFavColors)
             {
                 Console.WriteLine(Resources.ColorsCountPromptMsg);
-                FavColorsCount = ValidateNumericInput(Console.ReadLine(), Resources.ColorsCountPromptMsg);
-                FavColors = GetStringArr(FavColorsCount, Resources.ColorNamePromptMsg);
+                favColorsCount = ValidateNumericInput(Console.ReadLine(), Resources.ColorsCountPromptMsg);
+                favColors = GetStringArr(favColorsCount, Resources.ColorNamePromptMsg);
             }
 
             Console.WriteLine($"{Environment.NewLine}{Resources.ByeMsg}");
 
             Thread.Sleep(1000);
 
-            return (FirstName, SecondName, Age, HasPet, PetCount, PetNames, HasFavColors, FavColorsCount, FavColors);
+            return (firstName, secondName, age, hasPet, petCount, petNames, hasFavColors, favColorsCount, favColors);
         }
 
         /// <summary>
