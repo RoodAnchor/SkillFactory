@@ -207,7 +207,7 @@ namespace SkillFactory.Module6.Project
     {
         First = 0,
         Second,
-        Thirs,
+        Third,
         Fourth,
         Fifth,
         Sixth,
