@@ -12,7 +12,7 @@ namespace SkillFactory.Module5.PassingParameters
         {
             Int32 num = 5;
             var arr = GetArrayFromConsole(ref num);
-            SortArray(arr, out Int32[] sortedDesc, out Int32[] sortedAsc);
+            SortArray(in arr, out Int32[] sortedDesc, out Int32[] sortedAsc);
         }
 
         internal static void GetName(out String newName, out String oldName)
@@ -50,8 +50,8 @@ namespace SkillFactory.Module5.PassingParameters
         /// <param name="sortedAsc">Сортированный массив по возрастанию</param>
         internal static void SortArray(in Int32[] arr, out Int32[] sortedDesc, out Int32[] sortedAsc)
         {
-            sortedDesc = SortArrayDesc(arr);
-            sortedAsc = SortArrayAsc(arr);
+            sortedDesc = SortArrayDesc(arr.ToArray());
+            sortedAsc = SortArrayAsc(arr.ToArray());
         }
 
         internal static Int32[] SortArrayDesc(Int32[] arr)
