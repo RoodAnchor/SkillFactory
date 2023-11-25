@@ -34,17 +34,20 @@ namespace SkillFactory.Module4.Tuples
             Console.ReadLine();
         }
         
-        static void PrintPetData()
+        static (String, String, Byte, Int32) PrintPetData()
         {
             (String Name, String Type, Byte Age, Int32 NameCount) Pet;
 
             Pet.Name = "Dizzy";
             Pet.Type = "cat";
             Pet.Age = 2;
+
             Pet.NameCount = Pet.Name.Length;
 
             Console.WriteLine(Pet);
             Console.ReadLine();
+
+            return Pet;
         }
 
         static void GetUserProfileData()

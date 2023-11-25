@@ -37,6 +37,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5.4_Visibility", "5.4_Visib
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5.5_Recursion", "5.5_Recursion\5.5_Recursion.csproj", "{E4371D7F-FAA3-45C8-B9E9-D4A7D6326F8E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5.6_Project", "5.6_Project\5.6_Project.csproj", "{4BAB60B8-86DA-4F18-86F0-757A9E26B757}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{E4371D7F-FAA3-45C8-B9E9-D4A7D6326F8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E4371D7F-FAA3-45C8-B9E9-D4A7D6326F8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E4371D7F-FAA3-45C8-B9E9-D4A7D6326F8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BAB60B8-86DA-4F18-86F0-757A9E26B757}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BAB60B8-86DA-4F18-86F0-757A9E26B757}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BAB60B8-86DA-4F18-86F0-757A9E26B757}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BAB60B8-86DA-4F18-86F0-757A9E26B757}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -118,6 +124,7 @@ Global
 		{793236F5-B178-4BFE-8A1B-9CA6D3FEF26A} = {4DA5DDF3-72FF-41B3-8D0F-D76F29BF664E}
 		{CBC5EA68-C0B2-4B0C-B6B9-659FA8CAE426} = {4DA5DDF3-72FF-41B3-8D0F-D76F29BF664E}
 		{E4371D7F-FAA3-45C8-B9E9-D4A7D6326F8E} = {4DA5DDF3-72FF-41B3-8D0F-D76F29BF664E}
+		{4BAB60B8-86DA-4F18-86F0-757A9E26B757} = {4DA5DDF3-72FF-41B3-8D0F-D76F29BF664E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {30F7E79B-16A3-4DD5-BA67-C1F58B8F9CEB}
