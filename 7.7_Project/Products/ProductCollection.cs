@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace SkillFactory.Module7.Project.Products
+namespace SkillFactory.OopBasics.FinalTask.Products
 {
     public class ProductCollection<TProduct> : IEnumerable<TProduct> where TProduct : Product
     {

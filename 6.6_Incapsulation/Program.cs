@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SkillFactory.Module6.Incapsulation
+namespace SkillFactory.OopBasics.Incapsulation
 {
     internal class Program
     {

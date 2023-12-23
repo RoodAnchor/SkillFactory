@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SkillFactory.Module6.Generics
+namespace SkillFactory.OopBasics.Generics
 {
     internal class Record<T1, T2>
     {

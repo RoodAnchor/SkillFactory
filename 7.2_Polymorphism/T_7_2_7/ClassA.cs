@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SkillFactory.Module7.Polymorphism.T_7_2_7
+namespace SkillFactory.OopBasics.Polymorphism.T_7_2_7
 {
     internal class ClassA
     {

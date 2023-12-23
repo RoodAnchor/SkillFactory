@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SkillFactory.Module6.ClassStruct.Bank
+namespace SkillFactory.OopBasics.ClassStruct.Bank
 {
     internal class Department
     {

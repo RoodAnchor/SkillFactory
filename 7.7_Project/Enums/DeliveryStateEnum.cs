@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace SkillFactory.Module7.Project.Enums
+namespace SkillFactory.OopBasics.FinalTask.Enums
 {
     public enum DeliveryStateEnum : Byte
     {

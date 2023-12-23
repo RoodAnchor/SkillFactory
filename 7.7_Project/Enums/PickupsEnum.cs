@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SkillFactory.Module7.Project.Enums
+namespace SkillFactory.OopBasics.FinalTask.Enums
 {
     public enum PickupsEnum : byte
     {

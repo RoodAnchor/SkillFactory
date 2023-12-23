@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SkillFactory.Module6.ClassStruct
+namespace SkillFactory.OopBasics.ClassStruct
 {
     internal class Rectangle
     {

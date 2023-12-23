@@ -5,7 +5,7 @@ using System.Runtime.Remoting.Messaging;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _6._6_Incapsulation
+namespace SkillFactory.OopBasics.Incapsulation
 {
     public class TrafficLight
     {

@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-using SkillFactory.Module7.Inheritance.T_7_1_7;
+using SkillFactory.OopBasics.Inheritance.T_7_1_7;
 
-namespace SkillFactory.Module7.Inheritance
+namespace SkillFactory.OopBasics.Inheritance
 {
     internal class Program
     {

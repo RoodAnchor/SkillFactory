@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SkillFactpry.Module7.AbstractClasses
+namespace SkillFactory.OopBasics.AbstractClasses
 {
     internal class Program
     {

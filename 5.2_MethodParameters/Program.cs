@@ -5,7 +5,7 @@ using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SkillFactory.Module5.MethodParameters
+namespace SkillFactory.Methods.Parameters
 {
     internal class Program
     {

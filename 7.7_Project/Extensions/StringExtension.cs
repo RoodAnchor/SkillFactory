@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace SkillFactory.Module7.Project.Extensions
+namespace SkillFactory.OopBasics.FinalTask.Extensions
 {
     public static class StringExtension
     {

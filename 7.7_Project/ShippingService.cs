@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace SkillFactory.Module7.Project
+namespace SkillFactory.OopBasics.FinalTask
 {
     public class ShippingService : Company
     {

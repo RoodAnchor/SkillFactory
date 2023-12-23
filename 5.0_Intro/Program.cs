@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SkillFactory.Module5.Intro
+namespace SkillFactory.CsMethods.Intro
 {
     internal class Program
     {

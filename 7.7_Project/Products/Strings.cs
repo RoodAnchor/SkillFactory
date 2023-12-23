@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace SkillFactory.Module7.Project.Products
+namespace SkillFactory.OopBasics.FinalTask.Products
 {
     public sealed class Strings : Product
     {

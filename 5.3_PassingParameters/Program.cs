@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SkillFactory.Module5.PassingParameters
+namespace SkillFactory.Methods.PassingParameters
 {
     internal class Program
     {

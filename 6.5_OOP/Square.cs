@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SkillFactory.Module6.OOP
+namespace SkillFactory.OopBasics.OOP
 {
     internal class Square
     {

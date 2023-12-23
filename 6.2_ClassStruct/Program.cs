@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-using SkillFactory.Module6.ClassStruct.Bank;
+using SkillFactory.OopBasics.ClassStruct.Bank;
 
-namespace SkillFactory.Module6.ClassStruct
+namespace SkillFactory.OopBasics.ClassStruct
 {
     internal class Program
     {

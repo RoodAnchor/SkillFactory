@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace SkillFactory.Module7.Project.Customers
+namespace SkillFactory.OopBasics.FinalTask.Customers
 {
     public sealed class BusinessCustomer : Customer
     {

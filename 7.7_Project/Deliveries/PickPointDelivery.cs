@@ -1,9 +1,9 @@
 ﻿using System;
 
-using SkillFactory.Module7.Project.Customers;
-using SkillFactory.Module7.Project.Enums;
+using SkillFactory.OopBasics.FinalTask.Customers;
+using SkillFactory.OopBasics.FinalTask.Enums;
 
-namespace SkillFactory.Module7.Project.Deliveries
+namespace SkillFactory.OopBasics.FinalTask.Deliveries
 {
     public sealed class PickPointDelivery<TCustomer> : Delivery<TCustomer> 
         where TCustomer : Customer

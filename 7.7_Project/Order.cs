@@ -1,12 +1,12 @@
 ﻿using System;
 
-using SkillFactory.Module7.Project.Enums;
-using SkillFactory.Module7.Project.Products;
-using SkillFactory.Module7.Project.Deliveries;
-using SkillFactory.Module7.Project.Customers;
+using SkillFactory.OopBasics.FinalTask.Enums;
+using SkillFactory.OopBasics.FinalTask.Products;
+using SkillFactory.OopBasics.FinalTask.Deliveries;
+using SkillFactory.OopBasics.FinalTask.Customers;
 using System.Runtime.Remoting.Messaging;
 
-namespace SkillFactory.Module7.Project
+namespace SkillFactory.OopBasics.FinalTask
 {
     public class Order<TDelivery, TCustomer, TNumber>
         where TDelivery : Delivery<TCustomer>

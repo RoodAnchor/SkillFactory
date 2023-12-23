@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SkillFactory.Module4.Conditions
+namespace SkillFactory.CsClrBasics.Conditions
 {
     internal class Program
     {

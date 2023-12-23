@@ -6,7 +6,7 @@ using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SkillFactory.Module7.Polymorphism.T_7_2_12
+namespace SkillFactory.OopBasics.Polymorphism.T_7_2_12
 {
     internal class Obj
     {

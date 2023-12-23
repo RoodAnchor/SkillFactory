@@ -1,4 +1,4 @@
-﻿using _5._6_Project.Properties;
+﻿using SkillFactory.CsMethods.Project.Properties;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace SkillFactory.Module6.Project
+namespace SkillFactory.CsMethods.Project
 {
     internal class Program
     {

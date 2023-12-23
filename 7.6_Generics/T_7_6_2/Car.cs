@@ -5,9 +5,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-using SkillFactory.Module6.Generics.T_7_6_2.Parts;
+using SkillFactory.OopBasics.Generics.T_7_6_2.Parts;
 
-namespace SkillFactory.Module6.Generics.T_7_6_2
+namespace SkillFactory.OopBasics.Generics.T_7_6_2
 {
     abstract internal class Car<TEngine> where TEngine : Engine
     {

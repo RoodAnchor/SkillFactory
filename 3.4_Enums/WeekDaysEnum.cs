@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SkillFactory.Module3.Enums
+namespace SkillFactory.CsClrBasics.Enums
 {
     public enum WeekDaysEnum : Byte
     {

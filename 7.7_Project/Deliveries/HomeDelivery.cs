@@ -1,8 +1,8 @@
 ﻿using System;
 
-using SkillFactory.Module7.Project.Customers;
+using SkillFactory.OopBasics.FinalTask.Customers;
 
-namespace SkillFactory.Module7.Project.Deliveries
+namespace SkillFactory.OopBasics.FinalTask.Deliveries
 {
     public sealed class HomeDelivery<TCustomer> : Delivery<TCustomer> 
         where TCustomer : Customer

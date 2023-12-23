@@ -1,11 +1,11 @@
-﻿using SkillFactory.Module7.Project.Enums;
+﻿using SkillFactory.OopBasics.FinalTask.Enums;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SkillFactory.Module7.Project.Products
+namespace SkillFactory.OopBasics.FinalTask.Products
 {
     public sealed class Drums : Product
     {

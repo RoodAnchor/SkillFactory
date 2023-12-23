@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SkillFactory.Module7.StaticClassesAndElements
+namespace SkillFactory.OopBasics.StaticClassesAndElements
 {
     public static class Int32Extensions
     {

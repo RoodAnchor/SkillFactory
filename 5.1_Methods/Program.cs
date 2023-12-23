@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SkillFactory.Unit5.Methods
+namespace SkillFactory.CsMethods.Methods
 {
     internal class Program
     {

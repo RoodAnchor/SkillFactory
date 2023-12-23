@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Serialization;
 
-namespace SkillFactory.Module5.Recursion
+namespace SkillFactory.CsMethods.Recursion
 {
     internal class Program
     {

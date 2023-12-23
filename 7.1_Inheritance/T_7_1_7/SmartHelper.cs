@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SkillFactory.Module7.Inheritance.T_7_1_7
+namespace SkillFactory.OopBasics.Inheritance.T_7_1_7
 {
     internal class SmartHelper
     {

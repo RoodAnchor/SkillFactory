@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SkillFactory.Module7.Polymorphism
+namespace SkillFactory.OopBasics.Polymorphism
 {
     internal class Program
     {

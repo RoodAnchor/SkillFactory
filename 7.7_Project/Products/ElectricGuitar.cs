@@ -1,7 +1,7 @@
-﻿using SkillFactory.Module7.Project.Enums;
+﻿using SkillFactory.OopBasics.FinalTask.Enums;
 using System;
 
-namespace SkillFactory.Module7.Project.Products
+namespace SkillFactory.OopBasics.FinalTask.Products
 {
     public sealed class ElectricGuitar : Product
     {

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SkillFactory.Module7.Polymorphism.T_7_2_14
+namespace SkillFactory.OopBasics.Polymorphism.T_7_2_14
 {
     internal class IndexingClass
     {
